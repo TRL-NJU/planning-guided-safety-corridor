@@ -1,0 +1,145 @@
+project:
+  seed_base: 20260819
+
+workspace:
+  boundary_is_wall: true
+  width: 20.0
+  height: 20.0
+  grid_resolution: 0.10
+  feasibility_resolution: 0.10
+
+robot:
+  radius: 0.28
+  safety_margin: 0.1
+  goal_radius: 0.35
+
+perception:
+  range: 10.0
+  boundary_spacing: 0.18
+
+planning:
+  dt: 1.0
+  reference_lookahead: 1.0
+  reference_speed: 3.00
+  jps_verbose: false
+  # Additional planning-only occupancy dilation after robot/safety inflation.
+  jps_extra_dilation_cells: 1
+  static_dt: 1.0
+
+corridor_guidance:
+  enabled: true
+  lookahead: 1.50
+  lateral_range: 0.80
+  sample_spacing: 0.05
+  minimum_field_value: 0.01
+  field_weight: 1.00
+  lateral_penalty: 0.12
+  smoothness_penalty: 0.20
+  max_offset_change: 0.20
+  terminal_disable_distance: 1.00
+  double:
+    enabled: false
+    lookahead: 1.00
+simulation:
+  dt: 0.02
+  max_time: 60.0
+  save_timeseries: true
+  save_snapshots: false
+  snapshot_dt: 0.50
+
+scp:
+  construction_half_width: 2.5
+  max_obstacle_facets: 48
+  candidate_tol: 1.0e-10
+  seed_clearance_tol: 1.0e-5
+  # Local polygon-to-SCP softmin fitting sharpness.
+  softmin_kappa: 15.0
+  # Multi-SCP softmax fusion sharpness.
+  softmax_kappa: 15.0
+  smooth_current_margin: 1.0e-4
+  max_seed_spacing: 0.5
+  seed_search_resolution: 0.1
+  min_seed_progress: 0.1
+  max_lookahead: 3.0
+
+# Local softmin SCPs are fused by compensated softmax. Its H_corr=0
+# contour defines the Poisson domain; the reconstructed field drives control.
+poisson:
+  enabled: true
+  # Preserve the raw Poisson solution; do not divide by its peak value.
+  normalize: false
+  grid_resolution: 0.10
+  grid_padding: 0.20
+  remote_decay: 0.10
+  field_scale: 1.0
+  normalization_epsilon: 1.0e-9
+  progress_sample_ds: 0.10
+  cg_tolerance: 1.0e-5
+  cg_max_iterations: 160
+  max_grid_nodes: 12000
+  outside_slope: 1.0
+  warm_start: true
+  direct_fallback: true
+
+barrier:
+  epsilon: 1.0e-3
+  transit_B_act:
+    jps_bas: 20.0
+    single_scp_bas: 5.0
+    corridor_bas: 1.0
+  equilibrium_margin: 0.05
+  equilibrium_sample_ds: 0.12
+  equilibrium_horizon: 5.0
+  free_field_value: 10.0
+
+controller:
+  # Moving obstacles: retain the BaS equation, apply the actuator limit to
+  # u_nom + u_safe, and allow safety feedback to overcome forward tracking.
+  dynamic_full_actuation: true
+  Kp_single: 1.20
+  Kp_double: 1.00
+  Kv_double: 1.60
+  kB:
+    jps_bas: 0.70
+    single_scp_bas: 0.45
+    corridor_bas: 0.35
+  safe_input_cap:
+    single: 1.20
+    double: 3.50
+  positive_z_only: true
+  double_normal_damping:
+    enabled: true
+    gain: 2.00
+
+limits:
+  # Final actuator constraints shared by all four methods.
+  single_speed_max: 5.00
+  double_speed_max: 5.00
+  double_accel_max: 3.50
+  hold_accel_gain: 2.50
+
+termination:
+  stall_time: 8.0
+  stall_displacement: 0.18
+  stall_goal_progress: 0.15
+  stall_speed: 0.08
+
+metrics:
+  safe_area_enabled: false
+  safe_area_window: 5.0
+  safe_area_resolution: 0.15
+  path_coverage_ds: 0.08
+  sample_dt: 0.50
+
+# Geometry acceptance before Poisson reconstruction.
+corridor_acceptance:
+  field_margin: 1.0e-4
+  max_refinements: 2
+  path_max_depth: 14
+  grid_resolution: 0.10
+  max_grid_nodes: 40000
+
+# BaS dynamic extension: velocity is a state and its rate is the new input.
+input_barrier:
+  tracking_gain: 200.0
+  barrier_gain: 0.02

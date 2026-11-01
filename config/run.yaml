@@ -1,0 +1,12 @@
+# All paths are relative to the project root.
+editor:
+  config: config/benchmark.yaml
+  save_root: data/custom_environments
+benchmark:
+  config: config/benchmark.yaml
+  environment_root: data/custom_environments
+  results_root: results/benchmark
+  workers: 4
+  resume: true
+analysis:
+  results: results/benchmark
