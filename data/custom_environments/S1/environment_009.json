@@ -1,0 +1,1317 @@
+{
+  "scenario_type": "S1",
+  "subtype": "manual",
+  "environment_id": "environment_009",
+  "seed": 9,
+  "width": 20.0,
+  "height": 20.0,
+  "start": [
+    0.47619,
+    18.571429
+  ],
+  "goal": [
+    19.52381,
+    1.428571
+  ],
+  "static_obstacles": [
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        19.524
+      ],
+      "a": 9.94,
+      "b": 0.37,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        18.571429
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        18.571429
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        18.571429
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        18.571429
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        18.571429
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        17.619048
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        3.354838709677419,
+        17.537258064516134
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        9.161290322580644,
+        17.63403225806452
+      ],
+      "a": 3.2,
+      "b": 0.416,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        17.619048
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        17.619048
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        17.619048
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        17.619048
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        16.666667
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        16.666667
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        16.666667
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        16.666667
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.161290322580645,
+        15.763064516129035
+      ],
+      "a": 4.1,
+      "b": 0.35,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.952381,
+        15.714286
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        14.761905,
+        15.714286
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        15.714286
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        15.714286
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        14.761905
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        13.809524
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        3.333333,
+        13.809524
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        9.129032258064516,
+        13.763064516129035
+      ],
+      "a": 3.2,
+      "b": 0.4,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        13.809524
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        13.809524
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        13.809524
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        13.809524
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.095238,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        12.857143
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.285714,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        9.047619,
+        11.904762
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        11.904762
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.285714,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        10.952381
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        10.0
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.096774193548387,
+        10.085645161290325
+      ],
+      "a": 2.2,
+      "b": 0.416,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        10.0
+      ],
+      "a": 2.320952,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        10.0
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        16.666667,
+        10.0
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        10.0
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.285714,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.095238,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        9.047619
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.967741935483871,
+        8.311451612903229
+      ],
+      "a": 1.3,
+      "b": 0.416,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.095238,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        8.095238
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        7.142857
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        4.129032258064516,
+        6.343709677419357
+      ],
+      "a": 2.2,
+      "b": 0.416,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.095238,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.952381,
+        6.190476
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        6.190476
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.380952,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.095238,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.904762,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        15.714286,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.619048,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        5.238095
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        3.193548387096774,
+        4.311451612903227
+      ],
+      "a": 3.1,
+      "b": 0.416,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.806451612903224,
+        4.53725806451613
+      ],
+      "a": 6.13,
+      "b": 0.38,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        3.333333
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.809524,
+        3.333333
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        19.52381,
+        3.333333
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        3.333333,
+        2.380952
+      ],
+      "a": 3.273333,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        9.097,
+        2.473
+      ],
+      "a": 1.369,
+      "b": 0.38,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        13.870967741935484,
+        2.472741935483872
+      ],
+      "a": 2.1,
+      "b": 0.38,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        18.571429,
+        2.380952
+      ],
+      "a": 1.368571,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        0.47619,
+        1.428571
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        1.428571
+      ],
+      "a": 0.41619,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.0,
+        0.47619
+      ],
+      "a": 9.94,
+      "b": 0.41619,
+      "power": 8,
+      "angle": 0.0
+    }
+  ],
+  "dynamic_obstacles": []
+}

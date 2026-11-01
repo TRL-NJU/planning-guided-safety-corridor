@@ -1,0 +1,156 @@
+{
+  "scenario_type": "S1",
+  "subtype": "manual",
+  "environment_id": "environment_006",
+  "seed": 6,
+  "width": 20.0,
+  "height": 20.0,
+  "start": [
+    1.2,
+    1.2
+  ],
+  "goal": [
+    11.2,
+    11.2
+  ],
+  "static_obstacles": [
+    {
+      "type": "superellipse",
+      "center": [
+        11.0,
+        3.0
+      ],
+      "a": 7.0,
+      "b": 0.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        17.483870967741936,
+        10.053387096774197
+      ],
+      "a": 0.5,
+      "b": 7.0,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.4,
+        17.0
+      ],
+      "a": 7.6,
+      "b": 0.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        2.8,
+        11.5
+      ],
+      "a": 0.5,
+      "b": 5.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        11.387096774193548,
+        6.634032258064517
+      ],
+      "a": 4.0,
+      "b": 0.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        5.322580645161291,
+        12.795322580645163
+      ],
+      "a": 0.5,
+      "b": 2.0,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.064516129032256,
+        14.53725806451613
+      ],
+      "a": 4.2,
+      "b": 0.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        14.516129032258064,
+        10.859838709677422
+      ],
+      "a": 0.5,
+      "b": 3.1,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        10.35483870967742,
+        9.150161290322583
+      ],
+      "a": 2.2,
+      "b": 0.5,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        8.258064516129032,
+        11.24693548387097
+      ],
+      "a": 0.5,
+      "b": 2.15,
+      "power": 8,
+      "angle": 0.0
+    },
+    {
+      "type": "circle",
+      "center": [
+        6.548387096774193,
+        5.505000000000001
+      ],
+      "radius": 0.6
+    },
+    {
+      "type": "circle",
+      "center": [
+        4.096774193548387,
+        5.601774193548389
+      ],
+      "radius": 0.6
+    },
+    {
+      "type": "superellipse",
+      "center": [
+        5.322580645161291,
+        7.375967741935485
+      ],
+      "a": 0.5,
+      "b": 2.0,
+      "power": 8,
+      "angle": 0.0
+    }
+  ],
+  "dynamic_obstacles": []
+}
